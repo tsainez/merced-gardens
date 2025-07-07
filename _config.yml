@@ -1,6 +1,6 @@
-baseurl: '/merced-gardens'
+baseurl: '/merced-gardens/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Merced Botanical Gardens'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
