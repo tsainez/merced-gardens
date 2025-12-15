@@ -1,0 +1,23 @@
+// Skip to content link
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 1000;
+  background: $white;
+  color: $primary;
+  padding: 10px 15px;
+  border-radius: 0 0 5px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid $primary;
+  border-top: none;
+
+  &:focus {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
