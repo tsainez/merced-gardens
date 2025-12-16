@@ -160,17 +160,11 @@
   flex-wrap: wrap;
   align-items: center; // vertically center
   justify-content: flex-end; // Right align buttons with flex property because text-align doesn't work on flex items
-  padding: calc(var(--#{$prefix}modal-padding) - var(--#{$prefix}modal-footer-gap) * .5);
+  padding: var(--#{$prefix}modal-padding);
   background-color: var(--#{$prefix}modal-footer-bg);
   border-top: var(--#{$prefix}modal-footer-border-width) solid var(--#{$prefix}modal-footer-border-color);
   @include border-bottom-radius(var(--#{$prefix}modal-inner-border-radius));
-
-  // Place margin between footer elements
-  // This solution is far from ideal because of the universal selector usage,
-  // but is needed to fix https://github.com/twbs/bootstrap/issues/24800
-  > * {
-    margin: calc(var(--#{$prefix}modal-footer-gap) * .5); // Todo in v6: replace with gap on parent class
-  }
+  gap: var(--#{$prefix}modal-footer-gap);
 }
 
 // Scale up the modal
