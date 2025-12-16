@@ -5,7 +5,6 @@
   --#{$prefix}tooltip-max-width: #{$tooltip-max-width};
   --#{$prefix}tooltip-padding-x: #{$tooltip-padding-x};
   --#{$prefix}tooltip-padding-y: #{$tooltip-padding-y};
-  --#{$prefix}tooltip-margin: #{$tooltip-margin};
   @include rfs($tooltip-font-size, --#{$prefix}tooltip-font-size);
   --#{$prefix}tooltip-color: #{$tooltip-color};
   --#{$prefix}tooltip-bg: #{$tooltip-bg};
@@ -17,8 +16,6 @@
 
   z-index: var(--#{$prefix}tooltip-zindex);
   display: block;
-  margin: var(--#{$prefix}tooltip-margin);
-  @include deprecate("`$tooltip-margin`", "v5", "v5.x", true);
   // Our parent element can be arbitrary since tooltips are by default inserted as a sibling of their target element.
   // So reset our font and text properties to avoid inheriting weird values.
   @include reset-text();
