@@ -100,6 +100,10 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
+// Skip Link Component
+// Provides a hidden link for keyboard users to skip navigation
+// and jump directly to the main content area (#main-content).
+// Visible only on focus.
 @import "components/skip-link";
 // @import "components/fonts"; // Uncomment this line to self host font
 
