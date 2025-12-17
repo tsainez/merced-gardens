@@ -1,0 +1,3 @@
+## 2024-05-23 - Skip to Content & Utility Classes
+**Learning:** Adding a "Skip to content" link was straightforward using Bootstrap 5's `visually-hidden-focusable` utility. However, to ensure it overlays sticky headers properly, I needed `position-absolute` and a high z-index. The default `z-index` utilities were insufficient (max 3), so an inline style `z-index: 2000` was necessary to guarantee visibility over potential sticky elements (often z-index 1000+).
+**Action:** For future a11y overlays, check z-index context of headers first. If existing utilities are insufficient, inline styles or a dedicated utility class in `_sass` is acceptable for critical a11y features.
