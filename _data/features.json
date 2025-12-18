@@ -3,7 +3,7 @@
     "title": "People Over Profits",
     "description": "We exist purely for the benefit of Merced’s community and environment, so we are a 501(c)(3) nonprofit organization.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/people.svg",
       "width": 80,
       "height": 80
     }
@@ -12,7 +12,7 @@
     "title": "Community-Driven Mission",
     "description": "Our garden grows with the input of Merced residents—join us in shaping a space for all.", 
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/organization.svg",
       "width": 80,
       "height": 80
     }
@@ -21,7 +21,7 @@
     "title": "Accountability and Transparency",
     "description": "We are committed to open books and responsible leadership, keeping our supporters informed every step of the way.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/education.svg",
       "width": 80,
       "height": 80
     }
