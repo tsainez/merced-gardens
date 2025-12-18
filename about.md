@@ -7,7 +7,7 @@ bodyClass: page-about
 
 California's Central Valley—home to the world's most productive agricultural region—deserves a botanical garden that celebrates its natural heritage and growing future.
 
-![Accounting Services](../images/concept-art.png)
+![Concept Art](../images/concept-art.png)
 
 # Objectives
 
