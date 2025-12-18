@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      /* A warm gold color representing people as the "treasure" of the organization */
+      .people-color { fill: #D4AF37; }
+      /* A lush, healthy green for the garden growth */
+      .plant-color { fill: #4CAF50; }
+    </style>
+  </defs>
+
+  <g id="people-foundation">
+     <circle class="people-color" cx="100" cy="125" r="12"/>
+    <path class="people-color" d="M 88 140 Q 100 140 112 140 L 115 185 Q 100 195 85 185 Z"/>
+    
+    <circle class="people-color" cx="75" cy="135" r="10"/>
+    <path class="people-color" d="M 65 148 Q 75 148 85 148 L 88 185 Q 75 190 62 185 Z"/>
+
+    <circle class="people-color" cx="125" cy="135" r="10"/>
+    <path class="people-color" d="M 115 148 Q 125 148 135 148 L 138 185 Q 125 190 112 185 Z"/>
+  </g>
+
+  <path class="plant-color" d="M 100 20 
+           Q 140 20 160 50 
+           Q 180 80 160 110 
+           Q 140 135 100 135 
+           Q 60 135 40 110 
+           Q 20 80 40 50 
+           Q 60 20 100 20 Z"/>
+           
+  <path fill="none" stroke="#388E3C" stroke-width="3" stroke-linecap="round" d="M 100 135 L 100 60 M 100 80 L 70 60 M 100 90 L 130 70 M 100 110 L 60 95 M 100 115 L 140 100"/>
+</svg>
