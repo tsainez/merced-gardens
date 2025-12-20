@@ -18,6 +18,12 @@ def check_font():
         font_family = element.evaluate("el => getComputedStyle(el).fontFamily")
         print(f"Computed font-family: {font_family}")
 
+        expected_font = "Playfair Display"
+        if expected_font not in font_family:
+            raise AssertionError(
+                f"Expected font '{expected_font}' not applied; computed: {font_family}"
+            )
+
         # Verify that the browser attempted to load the local font
         # We can't easily check network requests for file:// but we can check if it rendered without fallback if we had a weird fallback
 
