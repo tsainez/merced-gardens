@@ -8,6 +8,10 @@
       "name": "Email",
       "link": "mailto:tsainez@gmail.com",
       "image": "images/social/email.svg"
+  },
+  {
+      "name": "Discord",
+      "link": "https://discord.gg/tyr92zhm",
+      "image": "images/social/discord.svg"
   }
-
 ]

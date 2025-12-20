@@ -16,7 +16,7 @@ Merced deserves a world-class botanical garden.
 
 A space that celebrates the Central Valley's agricultural heritage while providing education, conservation, and community gathering opportunities.
 
-<!-- In social.json, don't forget to add additional social links which will be shown at the bottom:
+<!-- In social .json, don't forget to add additional social links which will be shown at the bottom:
 
   {
     "name": "Twitter",
