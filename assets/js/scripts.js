@@ -4,6 +4,10 @@ var menuContainer = document.querySelector('#main-menu-mobile');
 
 menuTrigger.onclick = function() {
     menuContainer.classList.toggle('open');
-    menuTrigger.classList.toggle('is-active')
-    body.classList.toggle('lock-scroll')
+    menuTrigger.classList.toggle('is-active');
+    body.classList.toggle('lock-scroll');
+
+    // Toggle aria-expanded
+    var isExpanded = menuTrigger.getAttribute('aria-expanded') === 'true';
+    menuTrigger.setAttribute('aria-expanded', !isExpanded);
 }
