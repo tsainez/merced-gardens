@@ -11,3 +11,11 @@ menuTrigger.onclick = function() {
     var isExpanded = menuTrigger.getAttribute('aria-expanded') === 'true';
     menuTrigger.setAttribute('aria-expanded', !isExpanded);
 }
+
+document.addEventListener('keydown', function(event) {
+  var isExpanded = menuTrigger.getAttribute('aria-expanded') === 'true';
+  if (event.key === 'Escape' && isExpanded) {
+    menuTrigger.click();
+    menuTrigger.focus();
+  }
+});
