@@ -6,9 +6,6 @@
   @include media-breakpoint-up(md) {
     display: none;
   }
-  &:focus {
-    outline: none;
-  }
   .hamburger-inner,
   .hamburger-inner::before,
   .hamburger-inner::after {
