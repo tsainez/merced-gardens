@@ -1,5 +1,5 @@
 ---
-title: About Merced Gardens
+title: About
 layout: page
 description: About
 bodyClass: page-about
@@ -14,6 +14,6 @@ We are actively looking for passionate individuals to join our board, specifical
 Visit our [Team page](/team) to view these open positions and learn how you can help shape the future of Merced Gardens.
 
 <div style="margin-top: 1.5rem;">
-  <a href="/get-involved.html" class="button">Get Involved</a>
+  <a href="/get-involved/" class="button">Get Involved</a>
   <a href="/contact/" class="button" style="margin-left: 0.75rem;">Contact Us</a>
 </div>

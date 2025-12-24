@@ -2,7 +2,7 @@
 title: Team
 layout: teams
 description: Team
-intro_image: "images/illustrations/team.svg"
+intro_image: "images/illustrations/plant-the-tree.svg"
 intro_image_width: 3600
 intro_image_height: 3600
 intro_image_absolute: false

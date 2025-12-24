@@ -1,4 +1,24 @@
 .page-teams {
+  .intro {
+    padding-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      padding-bottom: 0px;
+    }
+  }
+
+  .intro-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @include media-breakpoint-up(md) {
+      max-height: 420px;
+    }
+  }
+
   .team-summary {
     display: flex;
     flex-wrap: wrap;
