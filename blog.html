@@ -4,14 +4,18 @@ title: Blog
 ---
 
 <div class="blog-list">
-  {% for post in site.posts %}
-    <div class="blog-post-summary mb-5">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
-      <div class="excerpt">
-        {{ post.excerpt }}
+  {% if site.posts and site.posts.size > 0 %}
+    {% for post in site.posts %}
+      <div class="blog-post-summary mb-5">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+        <div class="excerpt">
+          {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url | relative_url }}">Read more...</a>
       </div>
-      <a href="{{ post.url | relative_url }}">Read more...</a>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  {% else %}
+    <p class="text-muted">Nothing here yet! Check back later for updates.</p>
+  {% endif %}
 </div>
