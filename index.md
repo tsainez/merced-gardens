@@ -7,7 +7,7 @@ intro_image_width: 1536
 intro_image_height: 1024
 intro_image_absolute: true
 # intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
 # Merced Botanical Gardens
