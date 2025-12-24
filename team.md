@@ -3,6 +3,8 @@ title: Team
 layout: teams
 description: Team
 intro_image: "images/illustrations/team.svg"
+intro_image_width: 3600
+intro_image_height: 3600
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 ---
