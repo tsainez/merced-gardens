@@ -5,15 +5,15 @@ description: About
 bodyClass: page-about
 ---
 
-<div style="text-align: center;">
-  <img src="/images/illustrations/gear.svg" alt="Work in Progress Gear" style="max-width: 280px; height: auto; margin-bottom: 2rem;">
+## Our Organization
 
-  <p class="lead">We are crafting a full story about Merced Gardens—our origins, vision, and the people bringing it to life.</p>
+Merced Gardens is a nonprofit organization dedicated to bringing a botanical garden to the Merced area. We have successfully filed for nonprofit status with the Secretary of California and are currently building our founding team.
 
-  <p>Check back soon for milestones, concept art, and ways you can partner with us as we grow this community space.</p>
+We are actively looking for passionate individuals to join our board, specifically a **Secretary** and a **Treasurer**.
 
-  <div style="margin-top: 1.5rem;">
-    <a href="/get-involved.html" class="button">Get Involved</a>
-    <a href="/contact/" class="button" style="margin-left: 0.75rem;">Contact Us</a>
-  </div>
+Visit our [Team page](/team) to view these open positions and learn how you can help shape the future of Merced Gardens.
+
+<div style="margin-top: 1.5rem;">
+  <a href="/get-involved.html" class="button">Get Involved</a>
+  <a href="/contact/" class="button" style="margin-left: 0.75rem;">Contact Us</a>
 </div>
