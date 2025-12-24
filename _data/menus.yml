@@ -1,21 +1,26 @@
+# Site navigation remains relatively simple for the early stage this project is in.
+
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "About"
     url: "/about/"
+    weight: 2
+  - name: "Get Involved"
+    url: "/team/"
+    weight: 3
+  - name: "Blog"
+    url: "/blog/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
+  # - name: "Contact"
+  #   url: "/contact/"
+  #   weight: 5
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Get Involved"
+    url: "/team/"
     weight: 2

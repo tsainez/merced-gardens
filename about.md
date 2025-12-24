@@ -5,7 +5,9 @@ description: About
 bodyClass: page-about
 ---
 
-California's Central Valley—home to the world's most productive agricultural region—deserves a botanical garden that celebrates its natural heritage and growing future.
+<!-- Tell your story and show progress. A timeline of milestones (e.g., acquiring land, forming a board, getting nonprofit status, launching fundraising campaigns) lets visitors see the journey and potential opportunities for involvement. -->
+
+<!-- California's Central Valley—home to the world's most productive agricultural region—deserves a botanical garden that celebrates its natural heritage and growing future.
 
 ![Concept Art](../images/concept-art.png)
 
@@ -20,4 +22,4 @@ Our **core objectives and goals** are to:
 3. Celebrate the **Central Valley's farming heritage** through heritage crop displays, sustainable agriculture demonstrations, and active partnerships with local farmers.
 4. Generate **tourism revenue**, create sustainable **jobs**, and enhance property values while positioning Merced as an attractive destination for new residents and businesses.
 
-Merced is uniquely positioned for this vision. With a University of California campus bringing academic partnerships, a growing population, and our agricultural roots, we have the foundation to create something extraordinary. A botanical garden here would serve not just our city, but the entire Central Valley—connecting people to the plants that sustain our region and inspire our future.
+Merced is uniquely positioned for this vision. With a University of California campus bringing academic partnerships, a growing population, and our agricultural roots, we have the foundation to create something extraordinary. A botanical garden here would serve not just our city, but the entire Central Valley—connecting people to the plants that sustain our region and inspire our future. -->

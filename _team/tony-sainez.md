@@ -10,6 +10,6 @@ weight: 1
 
 Hey! I'm looking for passionate co-founders to help me realize the dream of a botanical garden in Merced, or nearby. 
 
-I live in Merced, and I work in Atwater. It sucks that if I wanted to see a botanical garden, I'd have to drive super far. I want to change this.
+I live in Merced, and I work in Atwater. It sucks that if I wanted to see a botanical garden, I'd have to drive pretty far. I want to change this.
 
-Anytime I'm traveling, I take time to visit the local botanical garden. Merced, which is growing quickly, is deserving of an equal attraction to a city as Phoenix. 
+Anytime I'm traveling, I take time to visit the local botanical garden. Merced, which is growing quickly, is deserving of an equal attraction.
