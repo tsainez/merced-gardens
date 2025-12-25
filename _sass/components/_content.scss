@@ -7,6 +7,9 @@
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    &.wip-gear {
+      max-width: 300px;
+    }
   }
   strong {
     font-width: bold;
