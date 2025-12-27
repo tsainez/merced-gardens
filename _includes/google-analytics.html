@@ -2,6 +2,6 @@
     {% assign gid = site.env.NETLIFY_GOOGLE_ANALYTICS_ID | default: site.data.seo.google_analytics_id %}
     {% if gid %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ gid }}"></script>
-    <script src="{{ '/assets/js/google-analytics.js' | relative_url }}" data-gid="{{ gid }}"></script>
+    <script src="{{ '/assets/js/google-analytics.js' | relative_url }}" data-gid="{{ gid }}" defer></script>
     {% endif %}
 {% endif %}
