@@ -10,6 +10,28 @@ bodyClass: "page-post"
                 <h1 class="title">{{page.title}}</h1>
                 <p class="text-muted">{{ page.date | date: "%B %d, %Y" }}</p>
                 <div class="content">{{content}}</div>
+
+                <div class="post-navigation mt-5 mb-3 d-flex justify-content-between align-items-center">
+                    <div class="nav-previous">
+                        {% if page.previous.url %}
+                        <a href="{{ page.previous.url | relative_url }}" class="text-decoration-none" aria-label="Previous post: {{ page.previous.title | escape }}">
+                            &larr; Previous
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    <div class="nav-home text-center">
+                        <a href="{{ '/blog.html' | relative_url }}" class="button" aria-label="Back to Blog">All Posts</a>
+                    </div>
+
+                    <div class="nav-next">
+                        {% if page.next.url %}
+                        <a href="{{ page.next.url | relative_url }}" class="text-decoration-none" aria-label="Next post: {{ page.next.title | escape }}">
+                            Next &rarr;
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
