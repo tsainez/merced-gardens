@@ -19,6 +19,12 @@ if (menuTrigger && menuContainer) {
         if (!isExpanded) {
             // Menu is opening
             document.addEventListener('keydown', handleEsc);
+            setTimeout(function() {
+                var firstLink = menuContainer.querySelector('a');
+                if (firstLink) {
+                    firstLink.focus();
+                }
+            }, 50);
         } else {
             // Menu is closing
             document.removeEventListener('keydown', handleEsc);
