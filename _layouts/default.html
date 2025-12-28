@@ -7,6 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
   <link rel="alternate icon" type="image/png" href="{{ '/images/noun-botanical-garden.png' | relative_url }}">
+
+  {% if jekyll.environment == "production" %}
+  {% assign gid = site.env.NETLIFY_GOOGLE_ANALYTICS_ID | default: site.data.seo.google_analytics_id %}
+  {% if gid %}
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  {% endif %}
+  {% endif %}
+
   <!-- Self host font -->
   <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
