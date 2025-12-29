@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Native Plants Garden icon</title>
+  <desc id="desc">Simple illustration of layered leaves growing from a mound.</desc>
+  <defs>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6fbf73" />
+      <stop offset="100%" stop-color="#3c8d40" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="18" fill="#f6fff6" />
+  <path d="M30 88c12-14 30-14 42 0" fill="none" stroke="#2f6f31" stroke-width="6" stroke-linecap="round" />
+  <path d="M60 30c-8 10-10 22-6 36 6-6 12-14 12-24 0-4-2-8-6-12z" fill="url(#leafGradient)" stroke="#2f6f31" stroke-width="3" stroke-linejoin="round" />
+  <path d="M78 38c-8 6-12 16-10 26 7-4 14-10 16-18 1-3 0-6-2-8z" fill="#6fbf73" stroke="#2f6f31" stroke-width="3" stroke-linejoin="round" />
+  <path d="M44 42c-8 6-12 16-10 26 7-4 14-10 16-18 1-3 0-6-2-8z" fill="#8dd695" stroke="#2f6f31" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="60" cy="82" r="6" fill="#2f6f31" />
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Education Pavilion icon</title>
+  <desc id="desc">Simple pavilion roof above an open book.</desc>
+  <rect width="120" height="120" rx="18" fill="#f6fff6" />
+  <path d="M20 50 60 26l40 24" fill="none" stroke="#2f6f31" stroke-width="6" stroke-linejoin="round" />
+  <path d="M32 54h56v40H32z" fill="#ffffff" stroke="#3c8d40" stroke-width="4" />
+  <path d="M60 68c-6-5-14-5-22 0v18c8-5 16-5 22 0 6-5 14-5 22 0V68c-8-5-16-5-22 0z" fill="#d6f2da" stroke="#3c8d40" stroke-width="3" />
+  <line x1="60" y1="68" x2="60" y2="92" stroke="#2f6f31" stroke-width="3" />
+</svg>

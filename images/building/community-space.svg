@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Community Space icon</title>
+  <desc id="desc">Three simple human figures beneath a tree canopy.</desc>
+  <rect width="120" height="120" rx="18" fill="#f6fff6" />
+  <circle cx="60" cy="38" r="24" fill="#8dd695" stroke="#2f6f31" stroke-width="4" />
+  <path d="M28 86c0-10 8-18 18-18h28c10 0 18 8 18 18" fill="#d6f2da" stroke="#3c8d40" stroke-width="4" stroke-linecap="round" />
+  <circle cx="44" cy="74" r="7" fill="#3c8d40" />
+  <circle cx="60" cy="70" r="8" fill="#2f6f31" />
+  <circle cx="76" cy="74" r="7" fill="#3c8d40" />
+</svg>

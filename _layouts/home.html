@@ -21,6 +21,34 @@ bodyClass: "page-home"
   </div>
 </div>
 
+{% if site.data.building %}
+<div class="strip strip-white">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center mb-3">
+      <div class="col-12 col-md-10 text-center building-header">
+        <h2 class="section-title">What We’re Building</h2>
+        <p class="lead">A first look at the spaces and experiences we’re shaping for the Merced community.</p>
+      </div>
+    </div>
+    <div class="row justify-content-start building-tiles">
+      {% for place in site.data.building %}
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+        <div class="building-tile">
+          {% if place.image %}
+          <div class="building-icon">
+            <img alt="{{ place.title }} illustration" src="{{ place.image.url | relative_url }}" width="{{ place.image.width }}" height="{{ place.image.height }}" loading="lazy" decoding="async" />
+          </div>
+          {% endif %}
+          <h3 class="building-title">{{ place.title }}</h3>
+          <p class="building-description">{{ place.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
 <!--
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
