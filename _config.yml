@@ -1,6 +1,7 @@
 baseurl: ''
 permalink: pretty
 title: 'Merced Botanical Gardens'
+url: "https://mercedgardens.org"
 
 logo:
   mobile: "images/logo/logo-mobile.svg"

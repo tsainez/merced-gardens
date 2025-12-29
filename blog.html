@@ -2,7 +2,11 @@
 layout: page
 title: Blog
 ---
-<p class="lead">Here we share progress updates, insights, and news from our team. Stay tuned for more content!</p>
+<p class="lead">Here we share progress updates, insights, and news from our team. Subscribe to the feed for future automations and digests.</p>
+
+<p class="mb-4">
+  <a href="{{ '/feed.xml' | relative_url }}" class="button" aria-label="Subscribe to Merced Botanical Gardens RSS feed">Subscribe via RSS</a>
+</p>
 
 <div class="blog-list">
   {% if site.posts and site.posts.size > 0 %}
