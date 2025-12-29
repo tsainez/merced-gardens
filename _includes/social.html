@@ -1,7 +1,7 @@
 <div class="social">
   {% for item in site.data.social %}
     <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ item.name }} (opens in a new tab)" title="{{ item.name }}">
-      <img src="{{ item.image | relative_url }}" alt="" aria-hidden="true" />
+      <img src="{{ item.image | relative_url }}" alt="" aria-hidden="true" loading="lazy" decoding="async" />
     </a>
   {% endfor %}
 </div>
