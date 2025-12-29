@@ -1,29 +1,29 @@
 [
   {
-    "title": "People Over Profits",
-    "description": "We exist purely for the benefit of Merced’s community and environment, so we are a 501(c)(3) nonprofit organization.",
+    "title": "Citrus Propagation",
+    "description": "Preserving and propagating local citrus varieties suited for the Central Valley climate.",
     "image": {
-      "url": "images/features/people.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/citrus.jpg",
+      "width": 400,
+      "height": 300
     }
   },
   {
-    "title": "Community-Driven Mission",
-    "description": "Our garden grows with the input of Merced residents—join us in shaping a space for all.", 
+    "title": "Monstera Project",
+    "description": "Cultivating Monstera deliciosa and other tropicals for our future greenhouse displays.",
     "image": {
-      "url": "images/features/organization.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/monstera.jpg",
+      "width": 400,
+      "height": 300
     }
   },
   {
-    "title": "Accountability and Transparency",
-    "description": "We are committed to open books and responsible leadership, keeping our supporters informed every step of the way.",
+    "title": "Seed Bank",
+    "description": "Collecting and storing seeds from native plants to ensure biodiversity for generations to come.",
     "image": {
-      "url": "images/features/education.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/seed-bank.jpg",
+      "width": 400,
+      "height": 300
     }
   }
 ]

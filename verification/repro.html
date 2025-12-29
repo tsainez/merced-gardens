@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Verification</title>
+    <style>
+        /* Mocking styling from _sass/components/_feature.scss */
+        .feature {
+          height: 100%;
+          border: 1px solid #f6fff6;
+          border-radius: 3px;
+          padding: 20px;
+          background-color: #ffffff;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          /* Mock container constraint */
+          width: 300px;
+          border: 1px solid #ccc; /* For visibility */
+        }
+        /* The change we are verifying */
+        .feature .feature-image {
+          flex: 0 0 auto;
+          width: 100%; /* Changed from 80px */
+          height: auto; /* Changed from 80px */
+          display: flex;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        .feature img {
+          width: 100%;
+          height: auto;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Citrus -->
+        <div class="feature">
+            <div class="feature-image">
+                <img src="../images/features/citrus.jpg" alt="Citrus Propagation">
+            </div>
+            <h2 class="feature-title">Citrus Propagation</h2>
+            <div class="feature-content">Preserving and propagating local citrus varieties suited for the Central Valley climate.</div>
+        </div>
+
+        <!-- Monstera -->
+        <div class="feature">
+            <div class="feature-image">
+                <img src="../images/features/monstera.jpg" alt="Monstera Project">
+            </div>
+            <h2 class="feature-title">Monstera Project</h2>
+            <div class="feature-content">Cultivating Monstera deliciosa and other tropicals for our future greenhouse displays.</div>
+        </div>
+
+        <!-- Seed Bank -->
+        <div class="feature">
+            <div class="feature-image">
+                <img src="../images/features/seed-bank.jpg" alt="Seed Bank">
+            </div>
+            <h2 class="feature-title">Seed Bank</h2>
+            <div class="feature-content">Collecting and storing seeds from native plants to ensure biodiversity for generations to come.</div>
+        </div>
+    </div>
+</body>
+</html>
