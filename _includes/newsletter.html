@@ -1,4 +1,7 @@
-<form name="newsletter" method="POST" data-netlify="true" class="newsletter-form mt-4">
+<form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form mt-4">
+  <div class="d-none">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </div>
   <div class="mb-3">
     <label for="newsletter-email" class="form-label">Email address</label>
     <input type="email" class="form-control" id="newsletter-email" name="email" placeholder="name@example.com" required>
