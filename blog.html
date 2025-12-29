@@ -1,0 +1,41 @@
+---
+layout: default
+title: "Blog"
+description: "News and updates from Merced Botanical Gardens."
+bodyClass: "page-blog"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">{{ page.title }}</h1>
+        <div class="content">
+          <p>See what the Merced Botanical Gardens team is working on and learn how the project is growing.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p class="mb-2 text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>
+          <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+      <p>No posts yet. Check back soon.</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
