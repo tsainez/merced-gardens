@@ -30,7 +30,8 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% assign team_url = team.external_url | default: team.url | relative_url %}
+                    <h2 class="team-name"><a href="{{ team_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noopener noreferrer">LinkedIn</a>
@@ -52,7 +53,8 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    {% assign team_url = team.external_url | default: team.url | relative_url %}
+                    <h2 class="team-name"><a href="{{ team_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
             </div>
