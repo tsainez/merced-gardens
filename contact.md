@@ -8,6 +8,10 @@ We are actively seeking collaborators and contributors!
 
 Please, feel free to reach out to the site owner via the above contact information.
 
+## Join our Mailing List
+
+{% include newsletter.html %}
+
 <!-- | Day       | Opening Hours   |
 | --------- | --------------- |
 | Tuesday   | 8:30am - 5:00pm |
