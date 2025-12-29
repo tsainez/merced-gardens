@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Native Plants Garden",
+    "description": "Immersive pathways through drought-smart plantings that celebrate the Central Valley’s ecology.",
+    "image": {
+      "url": "images/building/native-plants.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  {
+    "title": "Education Pavilion",
+    "description": "An adaptable pavilion for classes, field trips, and hands-on workshops with local experts.",
+    "image": {
+      "url": "images/building/education-pavilion.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  {
+    "title": "Community Space",
+    "description": "Shaded gathering lawns and seating for markets, small events, and quiet everyday visits.",
+    "image": {
+      "url": "images/building/community-space.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  {
+    "title": "Research & Conservation",
+    "description": "Plots and labs that support seed-saving, restoration, and climate-resilient horticulture.",
+    "image": {
+      "url": "images/building/research-conservation.svg",
+      "width": 100,
+      "height": 100
+    }
+  }
+]
