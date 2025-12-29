@@ -28,6 +28,7 @@ bodyClass: "page-services"
             <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
           <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+          <a href="{{ service.url | relative_url }}" aria-label="Read more about {{ service.title | escape }}">Read more...</a>
         </div>
       </div>
     </div>
