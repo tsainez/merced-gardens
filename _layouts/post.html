@@ -8,7 +8,16 @@ bodyClass: "page-post"
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
-                <p class="text-muted">{{ page.date | date: "%B %d, %Y" }}</p>
+                <p class="text-muted">
+                    {{ page.date | date: "%B %d, %Y" }}
+                    <span class="mx-2">&bull;</span>
+                    {% assign words = content | number_of_words %}
+                    {% if words < 360 %}
+                    1 min read
+                    {% else %}
+                    {{ words | divided_by: 180 }} min read
+                    {% endif %}
+                </p>
                 <div class="content">{{content}}</div>
 
                 <div class="post-navigation mt-5 mb-3 d-flex justify-content-between align-items-center">
