@@ -10,3 +10,7 @@
 ## 2024-05-22 - Missing Ruby Runtime
 **Learning:** The environment lacks a Ruby runtime, preventing local execution of `jekyll build` or `bundle install`.
 **Action:** Verify changes by creating temporary HTML reproduction files or parsing source files, rather than relying on the build process.
+
+## 2024-05-24 - Manual Asset Optimization
+**Learning:** Lacking a build pipeline (Jekyll plugins) to auto-optimize images, a 2.1MB PNG was manually converted to WebP via Python. The 80% reduction (438KB) highlights the importance of checking raw asset sizes in static repos.
+**Action:** In static site environments without asset pipelines, manually inspect and optimize heavy media files using scripting tools (Python/Pillow) before committing.

@@ -2,7 +2,7 @@
 title: Merced Botanical Gardens
 layout: home
 description: Celebrating the Central Valley.
-intro_image: "images/illustrations/splash.png"
+intro_image: "images/illustrations/splash.webp"
 intro_image_width: 1536
 intro_image_height: 1024
 intro_image_absolute: true
