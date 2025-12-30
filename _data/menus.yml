@@ -10,15 +10,9 @@ main:
   - name: "Get Involved"
     url: "/get-involved/"
     weight: 3
-  - name: "Project Status"
-    url: "/status/"
-    weight: 4
   - name: "Blog"
     url: "/blog/"
-    weight: 5
-  # - name: "Contact"
-  #   url: "/contact/"
-  #   weight: 5
+    weight: 4
 
 footer:
   - name: "Home"
@@ -27,6 +21,3 @@ footer:
   - name: "Get Involved"
     url: "/get-involved/"
     weight: 2
-  - name: "Project Status"
-    url: "/status/"
-    weight: 3

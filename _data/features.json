@@ -20,6 +20,10 @@
   {
     "title": "Accountability and Transparency",
     "description": "We are committed to open books and responsible leadership, keeping our supporters informed every step of the way.",
+    "link": {
+      "url": "/blog/",
+      "text": "Read updates on our blog"
+    },
     "image": {
       "url": "images/features/education.svg",
       "width": 80,

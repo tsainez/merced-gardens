@@ -88,7 +88,14 @@ bodyClass: "page-home"
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" loading="lazy" decoding="async" /></div>
           {% endif %}
           <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
+          <div class="feature-content">
+            {{ feature.description }}
+            {% if feature.link %}
+            <div class="feature-link">
+              <a href="{{ feature.link.url | relative_url }}">{{ feature.link.text }}</a>
+            </div>
+            {% endif %}
+          </div>
         </div>
       </div>
       {% endfor %}

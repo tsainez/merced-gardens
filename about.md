@@ -15,5 +15,4 @@ Visit our [Team page](/team) to view these open positions and learn how you can 
 
 <div class="mt-4">
   <a href="/get-involved/" class="button">Get Involved</a>
-  <a href="/contact/" class="button ms-3">Contact Us</a>
 </div>
