@@ -23,3 +23,9 @@
     text-decoration: none;
   }
 }
+
+// Quick fix for badges in buttons (Moved from bootstrap/_badge.scss)
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
