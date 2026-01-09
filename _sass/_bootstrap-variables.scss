@@ -35,3 +35,6 @@ $spacers: map-merge(
   ),
   $spacers
 );
+
+// Safari iframe resize bug: https://github.com/twbs/rfs/issues/14
+$rfs-safari-iframe-resize-bug-fix: true;
