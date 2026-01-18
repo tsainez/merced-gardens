@@ -502,6 +502,7 @@ legend {
   @include font-size($legend-font-size);
   font-weight: $legend-font-weight;
   line-height: inherit;
+  white-space: normal;
 
   + * {
     clear: left; // 2
