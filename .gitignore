@@ -17,3 +17,10 @@ Icon?
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Django Backend
+backend/*.sqlite3
+backend/media/
+backend/**/__pycache__/
+backend/**/migrations/*.pyc
+backend/.env
