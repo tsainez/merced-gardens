@@ -1,0 +1,23 @@
+.announcement-banner {
+  background-color: $primary-dark;
+  color: $white;
+  text-align: center;
+  padding: 12px 0;
+
+  .announcement-banner-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      color: $white-offset;
+    }
+  }
+}
