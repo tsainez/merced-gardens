@@ -25,7 +25,7 @@ import os
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "django-insecure-9svxq99=!n_qj0-dw_(q!3#9urluz3+l8wwjk5-ak_cx+a-tm3")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DJANGO_DEBUG", "False").lower() in ("true", "1", "t")
 
 SITE_URL = os.environ.get("SITE_URL", "http://localhost:8000")
 
